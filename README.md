@@ -29,7 +29,6 @@ This is a simple Laravel-based RESTful API for managing a book rental system. Th
 
 ```bash
 https://github.com/agbacoder/liberty-rentals.git
-cd book-rental-api
 ```
 
 2. **Install dependencies**
