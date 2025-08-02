@@ -12,14 +12,14 @@ This is a simple Laravel-based RESTful API for managing a book rental system. Th
 
 ## Tech Stack
 
-- PHP 8+
-- Laravel 10+
+- PHP 8x
+- Laravel 12x
 - Laravel Passport for API authentication
 - MySQL 
 
 ## Requirements
 
-- PHP 8.1+
+- PHP 8.2+
 - Composer
 - MySQL
 
