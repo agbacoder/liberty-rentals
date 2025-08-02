@@ -103,7 +103,7 @@ All endpoints are prefixed with `/api/v1`
 | GET    | `/books`     | List all books (paginated) |
 | GET    | `/book/{id}` | View a specific book       |
 
-#### Admin-only (Requires `is_admin = true`)
+#### Admin-only 
 
 | Method | Endpoint     | Description     |
 | ------ | ------------ | --------------- |
@@ -134,7 +134,6 @@ The following seeders are included:
 
 ## Notes
 
-- The `is_admin` flag is seeded only via database and not user input.
 - Passport is used for issuing and verifying tokens.
 - All protected routes require `Authorization: Bearer <token>` header.
 
